@@ -29,4 +29,11 @@ describe "Static pages" do
 		it { should have_content('Contact') }
 		it { should have_title(full_title('Contact')) }
 	end
+
+	describe "Terms Page" do
+		before { visit terms_path }
+		
+		it { should have_content('Terms') }
+		it { should have_title(full_title('Terms')) }
+	end
 end
