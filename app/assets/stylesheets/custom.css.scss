@@ -222,15 +222,17 @@ input
 	}
 }
 
-.microposts 
+/* microposts */
+
+.microposts
 {
 	list-style: none;
 	margin: 10px 0 0 0;
-
+	
 	li
 	{
 		padding: 10px 0;
-		border-top: 1px solid #8e8e8;
+		border-top: 1px solid #e8e8e8;
 	}
 }
 
@@ -258,3 +260,29 @@ aside
 		margin-bottom: 5px;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> user-microposts
